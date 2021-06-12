@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="87.0" prefWidth="235.0" style="-fx-border-color: grey; -fx-background-color: white; -fx-border-radius: 0.5;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Tables.tableDetailsItemcontrolleur">
+   <children>
+      <HBox alignment="CENTER" prefHeight="87.0" prefWidth="235.0">
+         <children>
+            <VBox alignment="BOTTOM_RIGHT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="foodtitle" text="ساندوش بانيني">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="foodPrice" text="3800 DZ">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="TOP_RIGHT" prefHeight="36.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="foodQuantity" text="05" textFill="RED" />
+                        <Label text="الكمية :" textFill="RED" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <ImageView fx:id="foodImage" fitHeight="74.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/Apps-system-software-update-icon.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+   <effect>
+      <DropShadow color="#a1a0a0" height="5.0" radius="2.0" width="5.0" />
+   </effect>
+</AnchorPane>

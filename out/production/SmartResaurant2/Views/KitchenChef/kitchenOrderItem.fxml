@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="217.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.newKitchenChef.KitchenOrderItemControlleur">
+   <children>
+      <ImageView fx:id="itemImage" fitHeight="140.0" fitWidth="217.0" layoutX="9.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="itemTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="157.0" prefHeight="25.0" prefWidth="148.0" text="ساندويش بانيني" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="191.0" prefHeight="25.0" prefWidth="66.0" text="الكمية: " textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="itemQuantity" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="14.0" layoutY="191.0" prefHeight="25.0" prefWidth="74.0" text="10" textAlignment="RIGHT" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <DropShadow height="13.04" radius="5.26" width="10.0" />
+   </effect>
+</AnchorPane>

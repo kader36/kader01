@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Tables.MoneyWithdrawllController">
+   <right>
+      <VBox alignment="TOP_RIGHT" prefHeight="600.0" prefWidth="300.0" style="-fx-background-color: #EE3D48;" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets top="30.0" />
+         </padding>
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/logo.png" />
+               </image>
+               <VBox.margin>
+                  <Insets right="30.0" />
+               </VBox.margin>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="168.0">
+                     <children>
+                        <Label text="مستخدم مولاي" textFill="WHITE">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Label>
+                        <Label opacity="0.8" text="مستخدم" textFill="WHITE">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <ImageView fitHeight="87.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/vippng.com-almacen-png-1629085.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="300.0">
+                     <children>
+                        <Button mnemonicParsing="false" opacity="0.8" style="-fx-background-color: transparent;" text="قائمة الطاولات" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/availableFood.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets right="30.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="300.0">
+                     <children>
+                        <Button mnemonicParsing="false" opacity="0.8" style="-fx-background-color: transparent;" text="قائمة الدفع" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/availableFood.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets right="30.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="300.0">
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="أخد الاموال" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/availableFood.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="25.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <AnchorPane prefHeight="200.0" prefWidth="6.0" style="-fx-background-color: white;" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="300.0">
+                     <children>
+                        <Button mnemonicParsing="false" opacity="0.8" style="-fx-background-color: transparent;" text="تسجيل الخروج" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/availableFood.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets right="30.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </VBox>
+         </children></VBox>
+   </right>
+   <center>
+      <AnchorPane minWidth="-Infinity" prefHeight="600.0" prefWidth="898.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="71.0" prefWidth="993.0" AnchorPane.bottomAnchor="529.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Text fill="#979595" strokeType="OUTSIDE" strokeWidth="0.0" text="قائمة أخد الاموال">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+            </HBox>
+            <VBox layoutX="1.0" layoutY="71.0" prefHeight="528.0" prefWidth="899.0" style="-fx-background-color: #E0E0E0;" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="71.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="عملية متوفرة">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="06">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="428.0" prefWidth="879.0">
+                     <children>
+                        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="319.0" prefWidth="312.0" style="-fx-background-color: white;">
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                           <children>
+                              <Text layoutX="91.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="اضافة عملية">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="29.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="يمكنك أخد اموال بدخال القيمة و الملاحظة" />
+                              <TextField fx:id="withdrawedMoneyTextField" alignment="CENTER_RIGHT" layoutX="31.0" layoutY="121.0" prefHeight="26.0" prefWidth="228.0" promptText="القمية المأخودة" />
+                              <Button fx:id="withdrawlMoneybutton" layoutX="94.0" layoutY="254.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: #3DAABB;" text="حفظ العملية" textFill="WHITE" />
+                              <TextField fx:id="noteTextField" alignment="TOP_RIGHT" layoutX="29.0" layoutY="160.0" prefHeight="75.0" prefWidth="232.0" promptText="الملاحظة" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="560.0" style="-fx-background-color: white;">
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                           <children>
+                              <HBox alignment="CENTER_RIGHT" layoutY="360.0" prefHeight="40.0" prefWidth="563.0">
+                                 <children>
+                                    <Button fx:id="removeButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: #EE3D48;" text="حدف" textFill="WHITE" />
+                                    <Button fx:id="quitButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: #989898;" text="اغلاق" textFill="#323131">
+                                       <HBox.margin>
+                                          <Insets left="10.0" />
+                                       </HBox.margin></Button>
+                                    <Button fx:id="saveButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" style="-fx-background-color: #3DAABB;" text="حفظ" textFill="WHITE">
+                                       <HBox.margin>
+                                          <Insets left="10.0" right="30.0" />
+                                       </HBox.margin>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                              <TableView fx:id="monywithdrawlOperationsTableView" layoutX="21.0" layoutY="14.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="349.0" prefWidth="521.0">
+                                <columns>
+                                  <TableColumn fx:id="checkColumn" prefWidth="28.0">
+                                       <graphic>
+                                          <CheckBox mnemonicParsing="false" />
+                                       </graphic>
+                                    </TableColumn>
+                                  <TableColumn fx:id="userColumn" prefWidth="92.0" text="المستخدم" />
+                                    <TableColumn fx:id="withdrawedMoneyColumn" prefWidth="111.0" text="المبلغ المأخود" />
+                                    <TableColumn fx:id="noteColumn" prefWidth="155.0" text="الملاحظة" />
+                                    <TableColumn fx:id="dateColumn" minWidth="0.0" prefWidth="210.0" text="التاريخ" />
+                                </columns>
+                                 <stylesheets>
+                                    <URL value="@style.css" />
+                                    <URL value="@../css/style.css" />
+                                 </stylesheets>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
