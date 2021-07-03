@@ -10,36 +10,44 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="87.0" prefWidth="235.0" style="-fx-border-color: grey; -fx-background-color: white; -fx-border-radius: 0.5;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Tables.tableDetailsItemcontrolleur">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="87.0" prefWidth="200.0" style="-fx-border-color: grey; -fx-background-color: white; -fx-border-radius: 0.5;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Tables.tableDetailsItemcontrolleur">
    <children>
-      <HBox alignment="CENTER" prefHeight="87.0" prefWidth="235.0">
+      <HBox alignment="CENTER" prefHeight="87.0" prefWidth="220.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <VBox alignment="BOTTOM_RIGHT" prefHeight="200.0" prefWidth="100.0">
+            <VBox alignment="CENTER" prefHeight="85.0" prefWidth="103.0">
                <children>
-                  <Label fx:id="foodtitle" text="ساندوش بانيني">
+                  <Label fx:id="foodtitle" styleClass="font-hs-dream" text="ساندوش بانيني">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label fx:id="foodPrice" text="3800 DZ">
-                     <font>
-                        <Font size="16.0" />
-                     </font>
-                  </Label>
-                  <HBox alignment="TOP_RIGHT" prefHeight="36.0" prefWidth="100.0">
+                  <HBox alignment="CENTER" prefHeight="25.0" prefWidth="102.0">
                      <children>
-                        <Label fx:id="foodQuantity" text="05" textFill="RED" />
-                        <Label text="الكمية :" textFill="RED" />
+                        <Label fx:id="foodPrice" styleClass="font-hs-dream" text="3800 " textFill="#5b0000">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label text="DA" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="23.0" prefWidth="102.0">
+                     <children>
+                        <Label fx:id="foodQuantity" styleClass="font-hs-dream" text="05" textFill="RED" />
+                        <Label styleClass="font-hs-dream" text="الكمية :" textFill="RED" />
                      </children>
                   </HBox>
                </children>
             </VBox>
-            <ImageView fx:id="foodImage" fitHeight="74.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="foodImage" fitHeight="70.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../img/Apps-system-software-update-icon.png" />
+                  <Image url="@../../Images/panini.png" />
                </image>
                <HBox.margin>
-                  <Insets left="10.0" />
+                  <Insets left="3.0" />
                </HBox.margin>
             </ImageView>
          </children>

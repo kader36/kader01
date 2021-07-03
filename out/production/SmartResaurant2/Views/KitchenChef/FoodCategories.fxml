@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<DialogPane maxHeight="500.0" maxWidth="440.0" minHeight="500.0" minWidth="440.0" prefHeight="500.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.stroreKeeper.CategoriesController">
+<DialogPane maxHeight="500.0" maxWidth="440.0" minHeight="500.0" minWidth="440.0" prefHeight="500.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.KitchenChef.CategoryFoodController">
    <content>
       <BorderPane maxHeight="500.0" maxWidth="440.0" minHeight="500.0" minWidth="440.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="500.0" prefWidth="440.0" style="-fx-background-color: #F8F8F8;" stylesheets="@../css/style.css">
          <center>
@@ -42,7 +42,7 @@
                                     </Label>
                                     <VBox prefHeight="116.0" prefWidth="67.0">
                                        <children>
-                                          <Button maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#showHideCategoryOperation" prefWidth="60.0" styleClass="more-button-products" text="المزيد" textFill="WHITE">
+                                          <Button maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#showCategoryOperation" prefWidth="60.0" styleClass="more-button-products" text="المزيد" textFill="WHITE">
                                              <font>
                                                 <Font name="HSDream-Regular" size="13.0" />
                                              </font>

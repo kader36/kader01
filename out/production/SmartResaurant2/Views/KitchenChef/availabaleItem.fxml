@@ -9,12 +9,15 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="206.0" prefWidth="188.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.newKitchenChef.AvailabaleItemControlleur">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="155.0" styleClass="container-table" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.newKitchenChef.AvailabaleItemControlleur">
    <children>
-      <VBox alignment="TOP_CENTER" prefHeight="206.0" prefWidth="188.0" style="-fx-background-color: white;">
+      <VBox alignment="TOP_CENTER" prefHeight="190.0" prefWidth="155.0" style="-fx-background-color: white;" styleClass="container-table">
          <children>
-            <ImageView fx:id="itemImage" fitHeight="114.0" fitWidth="187.0" pickOnBounds="true" preserveRatio="true" />
-            <Label fx:id="itemName" text="وجبة" textAlignment="CENTER">
+            <ImageView fx:id="itemImage" fitHeight="80.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin></ImageView>
+            <Label fx:id="itemName" styleClass="font-hs-dream" text="وجبة" textAlignment="CENTER">
                <VBox.margin>
                   <Insets top="10.0" />
                </VBox.margin>
@@ -22,7 +25,7 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <Button fx:id="itemToggoleButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="Button" textFill="WHITE">
+            <Button fx:id="itemToggoleButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" styleClass="extract-button" text="Button" textFill="WHITE">
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
