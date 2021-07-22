@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="180.0" prefWidth="160.0" style="-fx-background-color: white;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.newKitchenChef.KitchenOrderItemControlleur">
    <children>
-      <VBox alignment="CENTER" layoutX="-3.0" prefHeight="234.0" prefWidth="183.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
+      <VBox alignment="CENTER" layoutX="-3.0" prefHeight="234.0" prefWidth="183.0" styleClass="dashboard-item" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
          <children>
             <ImageView fx:id="itemImage" fitHeight="85.0" fitWidth="150.0" pickOnBounds="true" smooth="false">
                <VBox.margin>
@@ -22,14 +22,14 @@
                   <Image url="@../../Images/panini.png" />
                </image>
             </ImageView>
-            <Label fx:id="itemTitle" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="148.0" styleClass="font-hs-dream" text="ساندويش بانيني" textAlignment="CENTER">
+            <Label fx:id="itemTitle" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="148.0" styleClass="font2" text="ساندويش بانيني" textAlignment="CENTER">
                <font>
                   <Font size="20.0" />
                </font>
             </Label>
             <HBox nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Label fx:id="itemQuantity" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="25.0" prefWidth="96.0" styleClass="font-hs-dream" text="10" textAlignment="RIGHT" textFill="RED">
+                  <Label fx:id="itemQuantity" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="25.0" prefWidth="96.0" styleClass="font2" text="10" textAlignment="RIGHT" textFill="RED">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -37,7 +37,7 @@
                         <Insets right="20.0" />
                      </HBox.margin>
                   </Label>
-                  <Label fx:id="qan" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="107.0" styleClass="font-hs-dream" text="الكمية: " textAlignment="CENTER" textFill="RED">
+                  <Label fx:id="qan" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="107.0" styleClass="font2" text="الكمية: " textAlignment="CENTER" textFill="RED">
                      <font>
                         <Font size="20.0" />
                      </font>

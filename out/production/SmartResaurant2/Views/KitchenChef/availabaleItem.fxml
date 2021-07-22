@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="155.0" styleClass="container-table" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.newKitchenChef.AvailabaleItemControlleur">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="155.0" styleClass="dashboard-item" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.newKitchenChef.AvailabaleItemControlleur">
    <children>
-      <VBox alignment="TOP_CENTER" prefHeight="190.0" prefWidth="155.0" style="-fx-background-color: white;" styleClass="container-table">
+      <VBox alignment="TOP_CENTER" prefHeight="190.0" prefWidth="155.0" style="-fx-background-color: white;" styleClass="dashboard-item" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
          <children>
             <ImageView fx:id="itemImage" fitHeight="80.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                <VBox.margin>
