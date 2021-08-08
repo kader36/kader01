@@ -12,9 +12,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="700.0" prefWidth="1178.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.newKitchenChef.AvailabaleFoodsControlleur">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="700.0" prefWidth="1065.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.newKitchenChef.AvailabaleFoodsControlleur">
    <top>
-      <VBox alignment="CENTER_RIGHT" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="1200.0" style="-fx-background-color: white;" styleClass="bar-top" BorderPane.alignment="CENTER">
+      <VBox alignment="CENTER_RIGHT" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="1065.0" style="-fx-background-color: white;" styleClass="bar-top" BorderPane.alignment="CENTER">
          <children>
             <Label styleClass="font-hs-dream" text="الوجبات المتوفرة" textFill="#514e4e">
                <VBox.margin>
@@ -28,13 +28,13 @@
       </VBox>
    </top>
    <left>
-      <AnchorPane minWidth="-Infinity" prefWidth="1178.0" styleClass="container" BorderPane.alignment="CENTER">
+      <AnchorPane minWidth="-Infinity" prefWidth="1065.0" styleClass="container" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane layoutX="23.0" layoutY="12.0" prefHeight="478.0" prefWidth="1144.0" style="-fx-background-color: white;" styleClass="select-product-factory" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="20.0">
+            <AnchorPane layoutX="21.0" layoutY="12.0" prefHeight="580.0" prefWidth="1025.0" style="-fx-background-color: white;" styleClass="select-product-factory" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="19.0" AnchorPane.topAnchor="20.0">
                <children>
-                  <ScrollPane layoutX="14.0" layoutY="12.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="498.0" prefWidth="1014.0" style="-fx-background-color: TRANSPARENT;" styleClass="container" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                  <ScrollPane layoutX="12.0" layoutY="12.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="498.0" prefWidth="1008.0" style="-fx-background-color: TRANSPARENT;" styleClass="container" AnchorPane.bottomAnchor="72.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
                      <content>
-                        <GridPane fx:id="goodItemsGrid" nodeOrientation="RIGHT_TO_LEFT" prefHeight="495.0" prefWidth="1050.0" style="-fx-background-color: white;">
+                        <GridPane fx:id="goodItemsGrid" nodeOrientation="RIGHT_TO_LEFT" prefHeight="495.0" prefWidth="987.0" style="-fx-background-color: white;">
                           <rowConstraints>
                             <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
                           </rowConstraints>
