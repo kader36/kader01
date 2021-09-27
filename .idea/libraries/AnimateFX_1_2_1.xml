@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="AnimateFX-1.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/AnimateFX-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/com.lowagie.text-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/commons-beanutils-1.9.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/commons-collections4-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/controlsfx-8.40.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/customizer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/ecj-3.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/fontawesomefx-8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/groovy-all-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/itextpdf-5.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/jasperreports-6.14.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/jfoenix.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/jmf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/mediaplayer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/multiplayer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/mysql-connector-java-5.1.42-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SmartResaurant/lib/TrayNotification-5393c3a54f.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -20,7 +20,7 @@
                <children>
                   <VBox prefHeight="550.0" prefWidth="1000.0" styleClass="container-table">
                      <children>
-                        <HBox alignment="CENTER_RIGHT" prefHeight="57.0" prefWidth="986.0" style="-fx-background-color: white;" styleClass="container-table">
+                        <HBox fx:id="s" alignment="CENTER_RIGHT" prefHeight="57.0" prefWidth="986.0" style="-fx-background-color: white;" styleClass="container-table">
                            <children>
                               <Button fx:id="confirmOrderButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="91.0" styleClass="add-new-item" text="تأكيد الطلبية" textFill="WHITE">
                                  <HBox.margin>

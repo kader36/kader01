@@ -1837,7 +1837,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     </column>
     <column id="473" parent="352" name="Logo">
       <Position>6</Position>
-      <DataType>varchar(30)|0s</DataType>
+      <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="474" parent="353" name="ID_STORE_BILL">
@@ -1974,62 +1974,67 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="499" parent="356" name="TABLE_ACTIVE">
+    <column id="499" parent="356" name="Bloquer">
       <Position>3</Position>
-      <DataType>enum(&apos;true&apos;, &apos;false&apos;)|0e</DataType>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="500" parent="356" name="TABLE_ACTIVE">
+      <Position>4</Position>
+      <DataType>enum(&apos;false&apos;, &apos;true&apos;)|0e</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;true&apos;</DefaultExpression>
     </column>
-    <index id="500" parent="356" name="TABLE_NUMBER">
+    <index id="501" parent="356" name="TABLE_NUMBER">
       <ColNames>TABLE_NUMBER</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="501" parent="356" name="PRIMARY">
+    <key id="502" parent="356" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID_TABLE</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="502" parent="356" name="TABLE_NUMBER">
+    <key id="503" parent="356" name="TABLE_NUMBER">
       <ColNames>TABLE_NUMBER</ColNames>
       <UnderlyingIndexName>TABLE_NUMBER</UnderlyingIndexName>
     </key>
-    <column id="503" parent="357" name="ID_USER">
+    <column id="504" parent="357" name="ID_USER">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="504" parent="357" name="ID_EMPLOYER">
+    <column id="505" parent="357" name="ID_EMPLOYER">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="505" parent="357" name="USERNAME">
+    <column id="506" parent="357" name="USERNAME">
       <Position>3</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="506" parent="357" name="PASSWORD">
+    <column id="507" parent="357" name="PASSWORD">
       <Position>4</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="507" parent="357" name="TYPE">
+    <column id="508" parent="357" name="TYPE">
       <Position>5</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="508" parent="357" name="ID_EMPLOYER">
+    <index id="509" parent="357" name="ID_EMPLOYER">
       <ColNames>ID_EMPLOYER</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="509" parent="357" name="PRIMARY">
+    <key id="510" parent="357" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID_USER</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="510" parent="357" name="USERS_ibfk_1">
+    <foreign-key id="511" parent="357" name="USERS_ibfk_1">
       <ColNames>ID_EMPLOYER</ColNames>
       <RefTableName>employer</RefTableName>
       <RefColNames>ID_EMPLOYER</RefColNames>
